@@ -1,153 +1,1344 @@
+
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class='no-js' lang='en'>
-	<!--<![endif]-->
-	<head>
-		<meta charset='utf-8' />
-		<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
-		<title>hellgaming.ro - Coming Soon</title>	
-		
-		<link rel="shortcut icon" href="favicon.ico" />
-		<link rel="apple-touch-icon" href="images/favicon.png" />
-		
-		<link rel="stylesheet" href="css/maximage.css" type="text/css" media="screen" charset="utf-8" />
-		<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" charset="utf-8" />
-		
-		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-		
-		<!--[if IE 6]>
-			<style type="text/css" media="screen">
-				.gradient {display:none;}
-			</style>
-		<![endif]-->
-	</head>
-	<body>
+<html lang="en">
+<head><title>Bignews | Home Page</title>
+	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400italic,300,700,400">
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300">
+    <link type="text/css" rel="stylesheet" href="assets/libs/font-awesome/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/libs/ionicons/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/libs/animate.css/animate.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/core.css">
+    <!--link(type="text/css", rel='stylesheet', href='assets/css/layout.css')-->
+    <link type="text/css" rel="stylesheet" href="assets/css/pages/index.css">
+</head>
+<!--body(class="#{ current.source == 'fashion' ? 'layout-boxed fashion-theme' : '' }#{ current.source == 'fashion_detail' ? 'layout-boxed fashion-theme' : '' }")-->
+<body><!-- THEME SETTINGS-->
+<div id="theme-setting"><a href="#" data-toggle="dropdown" class="btn-theme-setting"><i class="ion-android-options"></i></a>
 
-		<!-- Social Links -->
-		<nav class="social-nav">
-			<ul>
-				<li><a href="#"><img src="images/icon-facebook.png" /></a></li>
-				<li><a href="#"><img src="images/icon-twitter.png" /></a></li>
-				<li><a href="#"><img src="images/icon-google.png" /></a></li>
-				<li><a href="#"><img src="images/icon-dribbble.png" /></a></li>
-				<li><a href="#"><img src="images/icon-linkedin.png" /></a></li>
-				<li><a href="#"><img src="images/icon-pinterest.png" /></a></li>
-			</ul>
-		</nav>
+    <div class="theme-setting-content"><h4 class="switcher-title">Style Switcher</h4><h6
+            class="switcher-title text-muted">Layout Options</h6>
 
-		<!-- Switch to full screen -->
-		<button class="full-screen" onclick="$(document).toggleFullScreen()"></button>
+        <div class="layout-options"><p><a id="layout-wide" href="#"
+                                          class="btn btn-default active">Wide</a>&nbsp;&nbsp;<a id="layout-boxed"
+                                                                                                href="#"
+                                                                                                class="btn btn-default">Boxed</a>
+        </p>
 
-		<!-- Site Logo -->
-		<div id="logo">hellgaming</div>
+            <div class="boxed-background-patterns"><p>Boxed layout patterns</p>
+                <ul class="list-unstyled list-inline">
+                    <li><a href="#"><img src="assets/images/patterns/brickwall.png" alt="" class="img-responsive"/></a>
+                    </li>
+                    <li><a href="#"><img src="assets/images/patterns/confectionary.png" alt="" class="img-responsive"/></a>
+                    </li>
+                    <li><a href="#"><img src="assets/images/patterns/symphony.png" alt="" class="img-responsive"/></a>
+                    </li>
+                    <li><a href="#"><img src="assets/images/patterns/straws.png" alt="" class="img-responsive"/></a>
+                    </li>
+                    <li><a href="#"><img src="assets/images/patterns/grey.png" alt="" class="img-responsive"/></a></li>
+                    <li><a href="#"><img src="assets/images/patterns/gplaypattern.png" alt=""
+                                         class="img-responsive"/></a></li>
+                </ul>
+            </div>
+            <div class="boxed-background-images"><p>Boxed layout images</p>
+                <ul class="list-unstyled list-inline">
+                    <li><a href="#"><img src="assets/images/backgrounds/bg_1.jpg" alt="" class="img-responsive"/></a>
+                    </li>
+                    <li><a href="#"><img src="assets/images/backgrounds/bg_2.jpg" alt="" class="img-responsive"/></a>
+                    </li>
+                    <li><a href="#"><img src="assets/images/backgrounds/bg_3.jpg" alt="" class="img-responsive"/></a>
+                    </li>
+                    <li><a href="#"><img src="assets/images/backgrounds/bg_4.jpg" alt="" class="img-responsive"/></a>
+                    </li>
+                    <li><a href="#"><img src="assets/images/backgrounds/bg_5.jpg" alt="" class="img-responsive"/></a>
+                    </li>
+                    <li><a href="#"><img src="assets/images/backgrounds/bg_6.jpg" alt="" class="img-responsive"/></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <h6 class="switcher-title text-muted">Menu</h6>
 
-		<!-- Main Navigation -->
-		<!--<nav class="main-nav">
-			<ul>
-				<li><a href="#home" class="active">Home</a></li>
-				<li><a href="#about">About</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</nav>-->
+        <div class="layout-options"><a id="menu-static" href="#" class="btn btn-default active">Static</a>&nbsp;&nbsp;<a
+                id="menu-fixed" href="#" class="btn btn-default">Fixed</a></div>
+    </div>
+</div>
+<!-- HEADER-->
+<div id="page-header">
+    <div id="header">
+        <div class="header-topbar">
+            <div class="container">
+                <div class="topbar-left">
+                    <div class="topbar-social">
+                        <ul class="list-unstyled list-inline">
+                            <li><a href="#" class="icon-google-plus"><i class="fa fa-google-plus fa-fw"></i></a></li>
+                            <li><a href="#" class="icon-twitter"><i class="fa fa-twitter fa-fw"></i></a></li>
+                            <li><a href="#" class="icon-facebook"><i class="fa fa-facebook fa-fw"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="topbar-right">
+                    <div class="topbar-search">
+                        <form action="search_result.html" class="search-form">
+                            <div class="input-icon right"><i class="ion-android-search"></i><input type="text"
+                                                                                                   placeholder="Search here..."
+                                                                                                   class="form-control"/>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="header-logo-banner">
+            <div class="container">
+                <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt="" class="img-responsive"/></a>
+                </div>
+                <div class="banner-adv"><a href="#"><img src="assets/images/banner_adv_728x90.jpg" alt=""
+                                                         class="img-responsive"/></a></div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="header-menu">
+            <div class="container">
+                <div class="menu-responsive"><span class="fa fa-bars"></span></div>
+                <ul id="menu" class="nav nav-pills nav-justified">
+                    <li class="dropdown mega-menu-dropdown mega-menu-full active"><a data-hover="dropdown" href="#">Home<span
+                            class="fa fa-angle-down mlm"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="mega-menu-content">
+                                    <div class="row">
+                                        <div class="col-md-2 col-sm-2">
+                                            <ul class="mega-menu-submenu">
+                                                <li><h3>Header Styles</h3></li>
+                                                <li><a href="header_1.html"><i class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Header 1</span></a></li>
+                                                <li><a href="header_2.html"><i class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Header 2</span></a></li>
+                                                <li><a href="header_3.html"><i class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Header 3</span></a></li>
+                                                <li><a href="header_4.html"><i class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Header 4</span></a></li>
+                                                <li><a href="header_5.html"><i class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Header 5</span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-2 col-sm-2">
+                                            <ul class="mega-menu-submenu">
+                                                <li><h3>Footer Styles</h3></li>
+                                                <li><a href="footer_1.html"><i class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Footer 1</span></a></li>
+                                                <li><a href="footer_2.html"><i class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Footer 2</span></a></li>
+                                                <li><a href="footer_3.html"><i class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Footer 3</span></a></li>
+                                                <li><a href="footer_4.html"><i class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Footer 4</span></a></li>
+                                                <li><a href="footer_5.html"><i class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Footer 5</span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-2 col-sm-2">
+                                            <ul class="mega-menu-submenu">
+                                                <li><h3>Technology</h3></li>
+                                                <li><a href="technology.html"><i class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Homepage</span></a></li>
+                                                <li><a href="technology_by_topic.html"><i class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Technology by Topic</span></a></li>
+                                                <li><a href="technology_detail.html"><i
+                                                        class="fa fa-angle-right"></i><span class="submenu-title">Technology Detail</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-2 col-sm-2">
+                                            <ul class="mega-menu-submenu">
+                                                <li><h3>Sport</h3></li>
+                                                <li><a href="sport.html"><i class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Homepage</span></a></li>
+                                                <li><a href="sport_by_topic.html"><i class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Sport by Topic</span></a></li>
+                                                <li><a href="sport_detail.html"><i class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Sport Detail</span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-2 col-sm-2">
+                                            <ul class="mega-menu-submenu">
+                                                <li><h3>Fashion</h3></li>
+                                                <li><a href="fashion.html"><i class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Homepage</span></a></li>
+                                                <li><a href="fashion_detail.html"><i class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Fashion Detail</span></a></li>
+                                                <li><a href="search_result.html"><i class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Search result</span></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-2 col-sm-2">
+                                            <ul class="mega-menu-submenu">
+                                                <li class="style-boder-none"><h3>More Pages</h3></li>
+                                                <!--li(class="#{ current.source == 'search_result' ? 'active' : '' }").style-boder-none<a href="search_result.html"><i class="fa fa-angle-right"></i><span class="submenu-title">Search Result</span></a>-->
+                                                <li class="style-boder-none"><a href="video.html"><i
+                                                        class="fa fa-angle-right"></i><span
+                                                        class="submenu-title">Video</span></a></li>
+                                                <li class="style-boder-none"><a href="video_detail.html"><i
+                                                        class="fa fa-angle-right"></i><span class="submenu-title">Video Detail</span></a>
+                                                </li>
+                                                <li class="style-boder-none"><a href="gallery.html"><i
+                                                        class="fa fa-angle-right"></i><span class="submenu-title">Gallery</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown mega-menu-dropdown mega-menu-full menu-text-dropdown"><a data-hover="dropdown"
+                                                                                                 href="#">Dropdown<span
+                            class="fa fa-angle-down mlm"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="mega-menu-content menu-tabs pd-right30">
+                                    <div class="row">
+                                        <div class="col-md-2 col-sm-3">
+                                            <ul class="nav nav-tabs">
+                                                <li class="active"><a href="#tab_1" data-toggle="tab">All</a></li>
+                                                <li><a href="#tab_1" data-toggle="tab">Computers</a></li>
+                                                <li><a href="#tab_1" data-toggle="tab">Mobiles</a></li>
+                                                <li><a href="#tab_1" data-toggle="tab">Cameras</a></li>
+                                                <li><a href="#tab_1" data-toggle="tab">Accessories</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-10 col-sm-9">
+                                            <div class="tab-content">
+                                                <div id="tab_1" class="tab-pane fade in active">
+                                                    <div id="tab-carousel-1" data-interval="false"
+                                                         class="menu-carousel carousel slide">
+                                                        <div class="carousel-inner">
+                                                            <div class="item active">
+                                                                <div class="row">
+                                                                    <div class="col-md-3 col-sm-4"><a href="#"
+                                                                                                      class="thumb"><img
+                                                                            src="assets/images/slider_news_1_thumb.jpg"
+                                                                            alt="" class="img-responsive"/></a><a
+                                                                            href="#" class="title">Find out how many
+                                                                        calories are in the foods you eat.</a>
 
-		<!-- Slider Controls -->
-		<a href="" id="arrow_left"><img src="images/arrow-left.png" alt="Slide Left" /></a>
-		<a href="" id="arrow_right"><img src="images/arrow-right.png" alt="Slide Right" /></a>
+                                                                        <div class="info"><span class="author">by John Doe</span><span
+                                                                                class="fa fa-circle"></span><span
+                                                                                class="date-created">10 mins ago</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-3 col-sm-4"><a href="#"
+                                                                                                      class="thumb"><img
+                                                                            src="assets/images/slider_news_2_thumb.jpg"
+                                                                            alt="" class="img-responsive"/></a><a
+                                                                            href="#" class="title">Travel is the best
+                                                                        thing can make human handle stress</a>
 
-		<!-- Home Page -->
-		<section class="content show" id="home">
-			<h1>Welcome</h1>
-			<h5>Something awesome, we create  in here</h5>
-			<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate arcu sit amet sem venenatis dictum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse eu massa sed orci interdum lobortis. Vivamus rutrum.</p>
-			<p><a href="#about">More info &#187;</a></p>-->
-		</section>
+                                                                        <div class="info"><span class="author">by John Doe</span><span
+                                                                                class="fa fa-circle"></span><span
+                                                                                class="date-created">10 mins ago</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-3 col-sm-4"><a href="#"
+                                                                                                      class="thumb"><img
+                                                                            src="assets/images/slider_news_3_thumb.jpg"
+                                                                            alt="" class="img-responsive"/></a><a
+                                                                            href="#" class="title">Where is the best
+                                                                        place for holiday with your partner?</a>
 
-		<!-- About Page -->
-		<section class="content hide" id="about">
-			<h1>About</h1>
-			<h5>Here's a little about what we're up to.</h5>
-			<p>Nullam quis arcu a elit feugiat congue nec non orci. Pellentesque feugiat bibendum placerat. Nullam eu massa in ipsum varius laoreet. Ut tristique pretium egestas. Sed sed velit dolor. Nam rhoncus euismod lorem, id placerat ipsum placerat nec. Mauris ut eros a ligula tristique lacinia non blandit metus. Sed vitae velit lorem, et scelerisque diam.</p>
-			<p><a href="#">Follow our updates on Twitter</a></p>
-		</section>
+                                                                        <div class="info"><span class="author">by John Doe</span><span
+                                                                                class="fa fa-circle"></span><span
+                                                                                class="date-created">10 mins ago</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-3 media-600-hide"><a href="#"
+                                                                                                            class="thumb"><img
+                                                                            src="assets/images/slider_news_4_thumb.jpg"
+                                                                            alt="" class="img-responsive"/></a><a
+                                                                            href="#" class="title">Workers are entitled
+                                                                        to cut the conditions.</a>
 
-		<!-- Contact Page -->
-		<section class="content hide" id="contact">
-			<h1>Contact</h1>
-			<h5>Get in touch.</h5>
-			<p>Email: <a href="#">info@avenir.com</a><br />
-				Phone: 123.456.7890<br /></p>
-			<p>123 East Main<br />
-				New York, NY 12345</p>
-		</section>
-		
-		<!-- Background Slides -->
-		<div id="maximage">
-			<div>
-				<img src="images/backgrounds/bg-img-1.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-			<div>
-				<img src="images/backgrounds/bg-img-2.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-			<div>
-				<img src="images/backgrounds/bg-img-3.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-			<div>
-				<img src="images/backgrounds/bg-img-4.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-			<div>
-				<img src="images/backgrounds/bg-img-5.jpg" alt="" />
-				<img class="gradient" src="images/backgrounds/gradient.png" alt="" />
-			</div>
-		</div>
-		
-		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
-		<script src="js/jquery.easing.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.fullscreen.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/jquery.ba-hashchange.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script type="text/javascript" charset="utf-8">
-			$(function(){
-				$('#maximage').maximage({
-					cycleOptions: {
-						fx: 'fade',
-						speed: 1000, // Has to match the speed for CSS transitions in jQuery.maximage.css (lines 30 - 33)
-						timeout: 5000,
-						prev: '#arrow_left',
-						next: '#arrow_right',
-						pause: 0,
-						before: function(last,current){
-							if(!$.browser.msie){
-								// Start HTML5 video when you arrive
-								if($(current).find('video').length > 0) $(current).find('video')[0].play();
-							}
-						},
-						after: function(last,current){
-							if(!$.browser.msie){
-								// Pauses HTML5 video when you leave it
-								if($(last).find('video').length > 0) $(last).find('video')[0].pause();
-							}
-						}
-					},
-					onFirstImageLoaded: function(){
-						jQuery('#cycle-loader').hide();
-						jQuery('#maximage').fadeIn('fast');
-					}
-				});
-	
-				// Helper function to Fill and Center the HTML5 Video
-				jQuery('video,object').maximage('maxcover');
-	
-			});
-		</script>
-  </body>
+                                                                        <div class="info"><span class="author">by John Doe</span><span
+                                                                                class="fa fa-circle"></span><span
+                                                                                class="date-created">10 mins ago</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="item">
+                                                                <div class="row">
+                                                                    <div class="col-md-3 col-sm-4"><a href="#"
+                                                                                                      class="thumb"><img
+                                                                            src="assets/images/sport/slider_news_1_thumb.jpg"
+                                                                            alt="" class="img-responsive"/></a><a
+                                                                            href="#" class="title">American Football
+                                                                        heads to China with spirit</a>
+
+                                                                        <div class="info"><span class="author">by John Doe</span><span
+                                                                                class="fa fa-circle"></span><span
+                                                                                class="date-created">10 mins ago</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-3 col-sm-4"><a href="#"
+                                                                                                      class="thumb"><img
+                                                                            src="assets/images/sport/slider_news_2_thumb.jpg"
+                                                                            alt="" class="img-responsive"/></a><a
+                                                                            href="#" class="title">List top ten F1
+                                                                        drivers join on 2015 Championship</a>
+
+                                                                        <div class="info"><span class="author">by John Doe</span><span
+                                                                                class="fa fa-circle"></span><span
+                                                                                class="date-created">10 mins ago</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-3 col-sm-4"><a href="#"
+                                                                                                      class="thumb"><img
+                                                                            src="assets/images/sport/slider_news_3_thumb.jpg"
+                                                                            alt="" class="img-responsive"/></a><a
+                                                                            href="#" class="title">Valeyball women's
+                                                                        world championship 2015</a>
+
+                                                                        <div class="info"><span class="author">by John Doe</span><span
+                                                                                class="fa fa-circle"></span><span
+                                                                                class="date-created">10 mins ago</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-3 media-600-hi"><a href="#"
+                                                                                                          class="thumb"><img
+                                                                            src="assets/images/sport/slider_news_4_thumb.jpg"
+                                                                            alt="" class="img-responsive"/></a><a
+                                                                            href="#" class="title">The latest football
+                                                                        news from the Liverpool</a>
+
+                                                                        <div class="info"><span class="author">by John Doe</span><span
+                                                                                class="fa fa-circle"></span><span
+                                                                                class="date-created">10 mins ago</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <p class="pull-right mtl mbn"><a href="#tab-carousel-1"
+                                                                                         data-slide="next"
+                                                                                         class="right carousel-control"><span
+                                                                class="fa fa-angle-right"></span></a><a
+                                                                href="#tab-carousel-1" data-slide="prev"
+                                                                class="left carousel-control"><span
+                                                                class="fa fa-angle-left"></span></a></p></div>
+                                                </div>
+                                                <div id="tab_2" class="tab-pane fade">...</div>
+                                                <div id="tab_3" class="tab-pane fade">...</div>
+                                                <div id="tab_4" class="tab-pane fade">...</div>
+                                                <div id="tab_5" class="tab-pane fade">...</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="world.html">World</a></li>
+                    <li><a href="technology.html">Technology</a></li>
+                    <li><a href="sport.html">Sports</a></li>
+                    <li><a href="fashion.html">Fashion</a></li>
+                    <li><a href="travel.html">Travel</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="video.html">Videos</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-background-menu"></div>
+    </div>
+</div>
+<!-- WRAPPER-->
+<div id="wrapper"><!-- PAGE WRAPPER-->
+    <div id="page-wrapper"><!-- MAIN CONTENT-->
+        <div class="main-content"><!-- CONTENT-->
+            <div class="content">
+                <div class="container">
+                    <div class="row mbxxl">
+                        <div class="col-md-8 col-left col-sm-8">
+                            <div class="breaking-news">
+                                <div class="row">
+                                    <div class="col-md-2 prn col-sm-3"><label>Breaking news:</label></div>
+                                    <div class="col-md-10 pln col-sm-9">
+                                        <div class="vticker">
+                                            <ul class="list-unstyled">
+                                                <li><a href="#">Sim card firm confirms hack attacks in Los Angles</a>
+                                                </li>
+                                                <li><a href="#">The world’s most eco-friendly cities that you must go
+                                                    to</a></li>
+                                                <li><a href="#">How much does childbirth cost around the world?</a></li>
+                                                <li><a href="#">Apple wine makes human more energy for winter</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-news">
+                                <div id="carousel" data-ride="carousel" class="carousel slide mbs">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <div class="row">
+                                                <div class="col-md-4 prn col-sm-4">
+                                                    <div class="caption">
+                                                        <div class="title">Find out how many <strong>calories</strong>
+                                                            are in the <strong>foods</strong> you eat.
+                                                        </div>
+                                                        <div class="info"><span class="category">Health</span><span
+                                                                class="fa fa-circle"></span><span class="date-created">10 mins ago</span>
+                                                        </div>
+                                                        <div class="description">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8 pln col-sm-8"><img
+                                                        src="assets/images/slider_news_1.jpg" alt=""
+                                                        class="img-responsive"/></div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="row">
+                                                <div class="col-md-4 prn col-sm-4">
+                                                    <div class="caption">
+                                                        <div class="title"><strong>Travel</strong> is the best thing can
+                                                            make human <strong>handle stress</strong></div>
+                                                        <div class="info"><span class="category">Health</span><span
+                                                                class="fa fa-circle"></span><span class="date-created">10 mins ago</span>
+                                                        </div>
+                                                        <div class="description">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8 pln col-sm-8"><img
+                                                        src="assets/images/slider_news_2.jpg" alt=""
+                                                        class="img-responsive"/></div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="row">
+                                                <div class="col-md-4 prn col-sm-4">
+                                                    <div class="caption">
+                                                        <div class="title">Where is the <strong>best</strong> place for
+                                                            <strong>holiday</strong> with your partner?
+                                                        </div>
+                                                        <div class="info"><span class="category">Health</span><span
+                                                                class="fa fa-circle"></span><span class="date-created">10 mins ago</span>
+                                                        </div>
+                                                        <div class="description">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8 pln col-sm-8"><img
+                                                        src="assets/images/slider_news_3.jpg" alt=""
+                                                        class="img-responsive"/></div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="row">
+                                                <div class="col-md-4 prn col-sm-4">
+                                                    <div class="caption">
+                                                        <div class="title"><strong>Workers</strong> are entitled to cut
+                                                            the <strong>conditions.</strong></div>
+                                                        <div class="info"><span class="category">Health</span><span
+                                                                class="fa fa-circle"></span><span class="date-created">10 mins ago</span>
+                                                        </div>
+                                                        <div class="description">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8 pln col-sm-8"><img
+                                                        src="assets/images/slider_news_4.jpg" alt=""
+                                                        class="img-responsive"/></div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="row">
+                                                <div class="col-md-4 prn col-sm-4">
+                                                    <div class="caption">
+                                                        <div class="title"><strong>American Football</strong> heads to
+                                                            <strong>China</strong> with spirit
+                                                        </div>
+                                                        <div class="info"><span class="category">Sport</span><span
+                                                                class="fa fa-circle"></span><span class="date-created">10 mins ago</span>
+                                                        </div>
+                                                        <div class="description">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8 pln col-sm-8"><img
+                                                        src="assets/images/sport/slider_news_1.jpg" alt=""
+                                                        class="img-responsive"/></div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="row">
+                                                <div class="col-md-4 prn col-sm-4">
+                                                    <div class="caption">
+                                                        <div class="title">List <strong>top ten</strong> F1 drivers join
+                                                            on <strong>2015</strong> Championship
+                                                        </div>
+                                                        <div class="info"><span class="category">Health</span><span
+                                                                class="fa fa-circle"></span><span class="date-created">10 mins ago</span>
+                                                        </div>
+                                                        <div class="description">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8 pln col-sm-8"><img
+                                                        src="assets/images/sport/slider_news_2.jpg" alt=""
+                                                        class="img-responsive"/></div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="row">
+                                                <div class="col-md-4 prn col-sm-4">
+                                                    <div class="caption">
+                                                        <div class="title">Valeyball <strong>women's</strong> world
+                                                            championship<strong> 2015</strong></div>
+                                                        <div class="info"><span class="category">Health</span><span
+                                                                class="fa fa-circle"></span><span class="date-created">10 mins ago</span>
+                                                        </div>
+                                                        <div class="description">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8 pln col-sm-8"><img
+                                                        src="assets/images/sport/slider_news_3.jpg" alt=""
+                                                        class="img-responsive"/></div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="row">
+                                                <div class="col-md-4 prn col-sm-4">
+                                                    <div class="caption">
+                                                        <div class="title">The latest football news from the <strong>Liverpool</strong>
+                                                        </div>
+                                                        <div class="info"><span class="category">Health</span><span
+                                                                class="fa fa-circle"></span><span class="date-created">10 mins ago</span>
+                                                        </div>
+                                                        <div class="description">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8 pln col-sm-8"><img
+                                                        src="assets/images/sport/slider_news_4.jpg" alt=""
+                                                        class="img-responsive"/></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div id="thumbcarousel" data-interval="false" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <div class="row man">
+                                                <div class="col-md-3 col-sm-3 col-xs-6">
+                                                    <div data-target="#carousel" data-slide-to="0" class="thumb"><img
+                                                            src="assets/images/slider_news_1_thumb.jpg" alt=""
+                                                            class="img-responsive"/>
+
+                                                        <div class="caption">
+                                                            <div class="description">Find out how many calories are in
+                                                                the foods you eat.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-3 col-xs-6 box-style-padding">
+                                                    <div data-target="#carousel" data-slide-to="1" class="thumb"><img
+                                                            src="assets/images/slider_news_2_thumb.jpg" alt=""
+                                                            class="img-responsive"/>
+
+                                                        <div class="caption">
+                                                            <div class="description">Travel is the best thing can make
+                                                                human handle stress
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-3 col-xs-6">
+                                                    <div data-target="#carousel" data-slide-to="2" class="thumb"><img
+                                                            src="assets/images/slider_news_3_thumb.jpg" alt=""
+                                                            class="img-responsive"/>
+
+                                                        <div class="caption">
+                                                            <div class="description">Where is the best place for holiday
+                                                                with your partner?
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-3 col-xs-6 box-style-padding">
+                                                    <div data-target="#carousel" data-slide-to="3" class="thumb"><img
+                                                            src="assets/images/slider_news_4_thumb.jpg" alt=""
+                                                            class="img-responsive"/>
+
+                                                        <div class="caption">
+                                                            <div class="description">Workers are entitled to cut the
+                                                                conditions.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="row man">
+                                                <div class="col-md-3 col-sm-3 col-xs-6">
+                                                    <div data-target="#carousel" data-slide-to="4" class="thumb"><img
+                                                            src="assets/images/sport/slider_news_1_thumb.jpg" alt=""
+                                                            class="img-responsive"/>
+
+                                                        <div class="caption">
+                                                            <div class="description">American Football heads to China
+                                                                with spirit
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-3 col-xs-6 box-style-padding">
+                                                    <div data-target="#carousel" data-slide-to="5" class="thumb"><img
+                                                            src="assets/images/sport/slider_news_2_thumb.jpg" alt=""
+                                                            class="img-responsive"/>
+
+                                                        <div class="caption">
+                                                            <div class="description">List top ten F1 drivers join on
+                                                                2015 Championship
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-3 col-xs-6">
+                                                    <div data-target="#carousel" data-slide-to="6" class="thumb"><img
+                                                            src="assets/images/sport/slider_news_3_thumb.jpg" alt=""
+                                                            class="img-responsive"/>
+
+                                                        <div class="caption">
+                                                            <div class="description">Valeyball women's world
+                                                                championship 2015
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3 col-sm-3 col-xs-6 box-style-padding">
+                                                    <div data-target="#carousel" data-slide-to="7" class="thumb"><img
+                                                            src="assets/images/sport/slider_news_4_thumb.jpg" alt=""
+                                                            class="img-responsive"/>
+
+                                                        <div class="caption">
+                                                            <div class="description">The latest football news from the
+                                                                Liverpool
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#thumbcarousel" data-slide="prev" class="left carousel-control"><span
+                                            class="fa fa-angle-left"></span></a><a href="#thumbcarousel"
+                                                                                   data-slide="next"
+                                                                                   class="right carousel-control"><span
+                                        class="fa fa-angle-right"></span></a></div>
+                            </div>
+                            <div id="hot-topics" class="section-category">
+                                <div class="section-name">
+                                    <div class="pull-left"><a href="#">Hot Topics</a></div>
+                                    <div class="pull-right">
+                                        <div class="share-link"><a href="#"><i class="fa fa-share-alt mrs"></i>Share</a>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="section-content">
+                                    <div class="row">
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="thumb"><a href="#" class="img-wrapper"><img
+                                                    src="assets/images/hot_topics_1.jpg" alt="" class="img-responsive"/></a><a
+                                                    href="#" class="title">Should fireworks be legal in Kuwait during
+                                                Lunar New Year?</a>
+
+                                                <div class="info"><span class="category">News</span><span
+                                                        class="fa fa-circle"></span><span class="date-created">Jan 1, 2015</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="hot-topics-list">
+                                                <div class="media">
+                                                    <div class="media-left"><a href="#"><img
+                                                            src="assets/images/hot_topics_2.jpg" alt=""
+                                                            class="media-object"/></a></div>
+                                                    <div class="media-body">
+                                                        <div class="media-heading"><a href="#" class="title">Coffee can
+                                                            improve energy levels and make</a></div>
+                                                        <div class="info"><span class="category">Health</span><span
+                                                                class="fa fa-circle"></span><span class="date-created">April 1, 2015</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="media">
+                                                    <div class="media-left"><a href="#"><img
+                                                            src="assets/images/hot_topics_3.jpg" alt=""
+                                                            class="media-object"/></a></div>
+                                                    <div class="media-body">
+                                                        <div class="media-heading"><a href="#" class="title">Why are
+                                                            American confused about Obama's</a></div>
+                                                        <div class="info"><span class="category">Politics</span><span
+                                                                class="fa fa-circle"></span><span class="date-created">April 29, 2015</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="media">
+                                                    <div class="media-left"><a href="#"><img
+                                                            src="assets/images/hot_topics_4.jpg" alt=""
+                                                            class="media-object"/></a></div>
+                                                    <div class="media-body">
+                                                        <div class="media-heading"><a href="#" class="title">Oscars
+                                                            2015: Red carpet fashion looks and trends</a></div>
+                                                        <div class="info"><span class="category">Fashion</span><span
+                                                                class="fa fa-circle"></span><span class="date-created">mar 27, 2015</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="media">
+                                                    <div class="media-left"><a href="#"><img
+                                                            src="assets/images/video_gallery_3.jpg" alt=""
+                                                            class="media-object"/></a></div>
+                                                    <div class="media-body">
+                                                        <div class="media-heading"><a href="#" class="title">Inaugurated
+                                                            the tallest building in the US</a></div>
+                                                        <div class="info"><span class="category">World</span><span
+                                                                class="fa fa-circle"></span><span class="date-created">Mar 29, 2015</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="world-news" class="section-category mbn">
+                                <div class="section-name"><a href="#">World</a></div>
+                                <div class="section-content">
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-4 col-xs-4">
+                                            <div class="subtitle">Regions</div>
+                                            <ul class="location-news list-unstyled">
+                                                <li><a href="#"><i class="fa fa-caret-right"></i>Africa</a></li>
+                                                <li><a href="#"><i class="fa fa-caret-right"></i>Europe</a></li>
+                                                <li><a href="#"><i class="fa fa-caret-right"></i>Asia</a></li>
+                                                <li><a href="#"><i class="fa fa-caret-right"></i>Middle East</a></li>
+                                                <li><a href="#"><i class="fa fa-caret-right"></i>North America</a></li>
+                                                <li><a href="#"><i class="fa fa-caret-right"></i>South America</a></li>
+                                                <li><a href="#"><i class="fa fa-caret-right"></i>Australia</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-9 col-sm-8 col-xs-8">
+                                            <div class="subtitle">
+                                                <div class="pull-left"><a href="#">Asia</a></div>
+                                                <div class="pull-right"><a href="#location-news-carousel"
+                                                                           data-slide="next"
+                                                                           class="right carousel-control"><span
+                                                        class="fa fa-angle-right"></span></a><a
+                                                        href="#location-news-carousel" data-slide="prev"
+                                                        class="left carousel-control"><span
+                                                        class="fa fa-angle-left"></span></a></div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                            <div id="location-news-carousel" data-interval="false"
+                                                 class="carousel slide">
+                                                <div class="carousel-inner">
+                                                    <div class="item active">
+                                                        <div class="media">
+                                                            <div class="media-left prxl"><a href="#"><img
+                                                                    src="assets/images/world_news_1.jpg" alt=""
+                                                                    class="media-object"/></a></div>
+                                                            <div class="media-body">
+                                                                <div class="media-heading"><a href="#" class="title">Asian
+                                                                    buddhism's growing signals growth of religious
+                                                                    nationalism In several countries</a></div>
+                                                                <div class="info"><span class="category">Politics</span><span
+                                                                        class="fa fa-circle"></span><span
+                                                                        class="date-created">Jan 1, 2015</span></div>
+                                                                <div class="description">Duis aute irure dolor in
+                                                                    reprehenderit in voluptate velit es sint cillumor
+                                                                    dolore eu fugiat nulla pari excepteur sint oc
+                                                                    cupidatat in reprehenderit.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="media">
+                                                            <div class="media-left prxl"><a href="#"><img
+                                                                    src="assets/images/world_news_1.jpg" alt=""
+                                                                    class="media-object"/></a></div>
+                                                            <div class="media-body">
+                                                                <div class="media-heading"><a href="#" class="title">Asian
+                                                                    buddhism's growing signals growth of religious
+                                                                    nationalism In several countries</a></div>
+                                                                <div class="info"><span class="category">Politics</span><span
+                                                                        class="fa fa-circle"></span><span
+                                                                        class="date-created">Jan 1, 2015</span></div>
+                                                                <div class="description">Duis aute irure dolor in
+                                                                    reprehenderit in voluptate velit es sint cillumor
+                                                                    dolore eu fugiat nulla pari excepteur sint oc
+                                                                    cupidatat in reprehenderit.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-right col-sm-4">
+                            <div class="weather-info"><span class="date"></span><span class="fa fa-circle"></span><span
+                                    class="description">New York, USA<canvas id="rain"></canvas>8 &deg;</span></div>
+                            <div id="latest-news" class="section-category">
+                                <div class="section-name"><a href="#">Latest News</a></div>
+                                <div class="section-content">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#" class="title">Sim card firm confirms hack attacks in Los
+                                            Angles</a>
+
+                                            <div class="info"><span class="category">Technology</span><span
+                                                    class="fa fa-circle"></span><span
+                                                    class="date-created">23 mins ago</span></div>
+                                        </li>
+                                        <li><a href="#" class="title">The world’s most eco-friendly cities that you must
+                                            go to</a>
+
+                                            <div class="info"><span class="category">Travel</span><span
+                                                    class="fa fa-circle"></span><span
+                                                    class="date-created">36 mins ago</span></div>
+                                        </li>
+                                        <li><a href="#" class="title">How much does childbirth cost around the
+                                            world?</a>
+
+                                            <div class="info"><span class="category">Economy</span><span
+                                                    class="fa fa-circle"></span><span
+                                                    class="date-created">1 hours ago</span></div>
+                                        </li>
+                                        <li><a href="#" class="title">Apple wine makes human more energy for winter</a>
+
+                                            <div class="info"><span class="category">Sport</span><span
+                                                    class="fa fa-circle"></span><span
+                                                    class="date-created">2 hours ago</span></div>
+                                        </li>
+                                        <li><a href="#" class="title">Microsoft Band update new adds cycling
+                                            application</a>
+
+                                            <div class="info"><span class="category">Technology</span><span
+                                                    class="fa fa-circle"></span><span
+                                                    class="date-created">3 hours ago</span></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="weather-news" class="section-category">
+                                <div class="section-name">
+                                    <div class="pull-left"><a href="#">Weather</a></div>
+                                    <div class="pull-right">
+                                        <div class="location-link"><a href="#"><i class="fa fa-location-arrow mrs"></i>New
+                                            York City, USA</a></div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="section-content">
+                                    <div class="today-weather">
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-4 col-xs-3">
+                                                <canvas id="snow"></canvas>
+                                            </div>
+                                            <div class="col-md-2 col-sm-2 col-xs-2">
+                                                <div class="temp">8&deg;</div>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-7">
+                                                <div class="info"><p>Snowy skies</p>
+                                                    <small></small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="next-day-weather">
+                                        <div class="row">
+                                            <div class="col-md-4 text-center col-xs-4">
+                                                <canvas id="clear-day"></canvas>
+                                                <div class="temp">20&deg; - 25&deg;</div>
+                                                <div class="date-weather date1">Feb 12, 2015</div>
+                                            </div>
+                                            <div class="col-md-4 text-center col-xs-4">
+                                                <canvas id="wind"></canvas>
+                                                <div class="temp">8&deg; - 15&deg;</div>
+                                                <div class="date-weather date2">Feb 13, 2015</div>
+                                            </div>
+                                            <div class="col-md-4 text-center col-xs-4">
+                                                <canvas id="sleet"></canvas>
+                                                <div class="temp">18&deg; - 22&deg;</div>
+                                                <div class="date-weather date3">Feb 14, 2015</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="banner-adv-1 mbxl"><a href="#"><img src="assets/images/banner_adv_300x250.jpg"
+                                                                            alt="" class="img-responsive"/></a></div>
+                            <div id="survey-form">
+                                <div class="heading">Survey</div>
+                                <div class="question">What do you do in your freetime?</div>
+                                <div class="answer-list">
+                                    <div class="row">
+                                        <div class="col-md-6 prn col-sm-6"><label><input type="checkbox"/>&nbsp;
+                                            Going cinema</label><label><input type="checkbox"/>&nbsp;
+                                            Cooking</label><label><input type="checkbox"/>&nbsp;
+                                            Shopping</label></div>
+                                        <div class="col-md-6 pln col-sm-6"><label><input type="checkbox"/>&nbsp;
+                                            Reading</label><label><input type="checkbox"/>&nbsp;
+                                            Doing exercise</label><label><input type="checkbox"/>&nbsp;
+                                            Listening music</label></div>
+                                    </div>
+                                    <p class="mtm mbn text-right"><a href="#" class="btn btn-default btn-submit btn-sm">Submit</a>
+                                    </p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="category-topics">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-4 col-xs-6 boxed-category-left">
+                                <div class="section-category">
+                                    <div class="section-name"><a href="#">Economy</a></div>
+                                    <div class="section-content"><a href="#" class="thumb"><img
+                                            src="assets/images/cate_topics_1.jpg" alt="" class="img-responsive"/>
+
+                                        <div class="caption">Reasons why EU may be the world's worst economy</div>
+                                    </a>
+
+                                        <div class="clearfix"></div>
+                                        <div class="category-topics-list">
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">Chinese New Year 2030:
+                                                    A fortune teller's take on</a></div>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">Obamacare sign ups top
+                                                    56 million</a></div>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">Even consumers with
+                                                    health insuran get hit with large bills</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 boxed-category-right">
+                                <div class="section-category">
+                                    <div class="section-name"><a href="#">Politics</a></div>
+                                    <div class="section-content"><a href="#" class="thumb"><img
+                                            src="assets/images/cate_topics_2.jpg" alt="" class="img-responsive"/>
+
+                                        <div class="caption">Obama think it's time for Iran to decide on petrol deal
+                                        </div>
+                                    </a>
+
+                                        <div class="clearfix"></div>
+                                        <div class="category-topics-list">
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">Women in countries
+                                                    such as Afghanistan 'worst hit'</a></div>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">EU leaders to meet
+                                                    President Obama to discuss Ukraine</a></div>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">Exhibition portraits
+                                                    the celebrity</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 boxed-category-left">
+                                <div class="section-category">
+                                    <div class="section-name"><a href="#">Technology</a></div>
+                                    <div class="section-content"><a href="#" class="thumb"><img
+                                            src="assets/images/cate_topics_3.jpg" alt="" class="img-responsive"/>
+
+                                        <div class="caption">Apple will create a smart camera in December 2015</div>
+                                    </a>
+
+                                        <div class="clearfix"></div>
+                                        <div class="category-topics-list">
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">Tube Kids app comes
+                                                    out to play</a></div>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">Microsoft Band update
+                                                    new adds cycling application</a></div>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">Facebook's new terms
+                                                    of service violates law.</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 boxed-category-right">
+                                <div class="section-category">
+                                    <div class="section-name"><a href="#">Sport</a></div>
+                                    <div class="section-content"><a href="#" class="thumb"><img
+                                            src="assets/images/cate_topics_4.jpg" alt="" class="img-responsive"/>
+
+                                        <div class="caption">Football refers to a number of playe that involve the
+                                            game
+                                        </div>
+                                    </a>
+
+                                        <div class="clearfix"></div>
+                                        <div class="category-topics-list">
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">Golf stars and
+                                                    sponsors flock to Abu Dhabi</a></div>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">Australia 2019 World
+                                                    Cup should be held in winter</a></div>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">Can you win the
+                                                    Olympics award?</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 boxed-category-left">
+                                <div class="section-category">
+                                    <div class="section-name"><a href="#">Entertainment</a></div>
+                                    <div class="section-content"><a href="#" class="thumb"><img
+                                            src="assets/images/cate_topics_5.jpg" alt="" class="img-responsive"/>
+
+                                        <div class="caption">Discover U2 tour 2015 in Singapore and Hong Kong</div>
+                                    </a>
+
+                                        <div class="clearfix"></div>
+                                        <div class="category-topics-list">
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">List of movie we can
+                                                    not miss in new year season.</a></div>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">Pharrell best sing
+                                                    Happy song deal</a></div>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">Christina Aguilera
+                                                    spot on with Kim Poss impression</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 boxed-category-right">
+                                <div class="section-category">
+                                    <div class="section-name"><a href="#">Travel</a></div>
+                                    <div class="section-content"><a href="#" class="thumb"><img
+                                            src="assets/images/cate_topics_6.jpg" alt="" class="img-responsive"/>
+
+                                        <div class="caption">Thailand best place to travel for everybody in new year
+                                        </div>
+                                    </a>
+
+                                        <div class="clearfix"></div>
+                                        <div class="category-topics-list">
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">5 of the world's
+                                                    coolest commutes</a></div>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">10 of the world's most
+                                                    beautifil hotel</a></div>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">Pedal faster,
+                                                    Amsterdam Seville may soon be Europe's</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 boxed-category-left">
+                                <div class="section-category">
+                                    <div class="section-name"><a href="#">Health</a></div>
+                                    <div class="section-content"><a href="#" class="thumb"><img
+                                            src="assets/images/cate_topics_7.jpg" alt="" class="img-responsive"/>
+
+                                        <div class="caption">Salad is good for health all time but do you really know
+                                            the truth?
+                                        </div>
+                                    </a>
+
+                                        <div class="clearfix"></div>
+                                        <div class="category-topics-list">
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">Ten minute Ebola test
+                                                    approved</a></div>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">Breath test for
+                                                    Australia's disease</a></div>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">Cigar makes your
+                                                    health down for day by day</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 col-xs-6 boxed-category-right">
+                                <div class="section-category">
+                                    <div class="section-name"><a href="#">Fashion</a></div>
+                                    <div class="section-content"><a href="#" class="thumb"><img
+                                            src="assets/images/cate_topics_8.jpg" alt="" class="img-responsive"/>
+
+                                        <div class="caption">Black color is back on catwalk in Winter 2015</div>
+                                    </a>
+
+                                        <div class="clearfix"></div>
+                                        <div class="category-topics-list">
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">British Stars Ride
+                                                    Front-Row at Dol’s Fall 2015 Show</a></div>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">015 fashion forecast
+                                                    from New York</a></div>
+                                            </div>
+                                            <div class="media">
+                                                <div class="media-left prl"><i class="fa fa-caret-right"></i></div>
+                                                <div class="media-body"><a href="#" class="title">The most beautiful
+                                                    watches of 2015</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="video-gallery" class="section-category mbn">
+                                    <div class="section-name"><a href="video_gallery.html">Video & Gallery</a></div>
+                                    <div class="section-content">
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6 col-xs-12 box-video-left">
+                                                <a href="#" class="thumb mbn">
+                                                    <img src="assets/images/video_gallery_1.jpg" alt="" class="img-responsive"/>
+                                                    <div class="img-cate"><i class="fa fa-video-camera"></i></div>
+                                                    <div class="caption">"Coconut Yah" new single of Kattee Bee absolutelydrives the world crazy with hot dancing performance.</div>
+                                                </a>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12 box-video-right">
+                                                <div class="row">
+                                                    <div class="col-md-6 col-sm-6 col-xs-6"><a href="#"
+                                                                                               class="thumb"><img
+                                                            src="assets/images/video_gallery_2.jpg" alt=""
+                                                            class="img-responsive"/>
+
+                                                        <div class="img-cate"><i class="fa fa-video-camera"></i></div>
+                                                        <div class="caption">Beautiful married pictures are easy to
+                                                            make
+                                                        </div>
+                                                    </a></div>
+                                                    <div class="col-md-6 col-sm-6 col-xs-6 box-style-padding"><a
+                                                            href="#" class="thumb"><img
+                                                            src="assets/images/video_gallery_3.jpg" alt=""
+                                                            class="img-responsive"/>
+
+                                                        <div class="img-cate"><i class="fa fa-picture-o"></i></div>
+                                                        <div class="caption">Enjoy the beauty of 20 building which is
+                                                            the best of time
+                                                        </div>
+                                                    </a></div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6 col-sm-6 col-xs-6"><a href="#"
+                                                                                               class="thumb mbn"><img
+                                                            src="assets/images/video_gallery_4.jpg" alt=""
+                                                            class="img-responsive"/>
+
+                                                        <div class="img-cate"><i class="fa fa-picture-o"></i></div>
+                                                        <div class="caption">How to make a creative meeting in the
+                                                            begining of week?
+                                                        </div>
+                                                    </a></div>
+                                                    <div class="col-md-6 col-sm-6 col-xs-6 box-style-padding"><a
+                                                            href="#" class="thumb mbn"><img
+                                                            src="assets/images/video_gallery_5.jpg" alt=""
+                                                            class="img-responsive"/>
+
+                                                        <div class="img-cate"><i class="fa fa-video-camera"></i></div>
+                                                        <div class="caption">Analy your business by application, is it
+                                                            really good?
+                                                        </div>
+                                                    </a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TWITTER FEED-->
+    <div id="back-top"><a href="#top"><i class="fa fa-angle-double-up"></i></a></div>
+    <!-- FOOTER-->
+    <div id="footer">
+        <div class="container">
+            <div class="sub-footer">
+                <div class="row">
+                    <div class="col-md-2 col-sm-3">
+                        <div class="logo-small"><a href="#"><img src="assets/images/logo_small.png" alt=""
+                                                                 class="img-responsive"/></a></div>
+                        <p class="mbxl text-justify">Duis aute irure dolor in repre henderit in voluptate velit es sint
+                            cillumor dolore eu fugiat nulla pari excepteur.</p>
+
+                        <div class="heading">Join with us</div>
+                        <div class="footer-social">
+                            <ul class="list-unstyled list-inline">
+                                <li><a href="#" class="icon-google-plus"><i class="fa fa-google-plus fa-fw"></i></a>
+                                </li>
+                                <li><a href="#" class="icon-twitter"><i class="fa fa-twitter fa-fw"></i></a></li>
+                                <li><a href="#" class="icon-facebook"><i class="fa fa-facebook fa-fw"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 plxl col-sm-4">
+                        <div id="footer-news" class="section-category mbn">
+                            <div class="section-name"><a href="#">News</a></div>
+                            <div class="section-content">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <ul class="list-news list-unstyled">
+                                            <li><a href="#"><i class="fa fa-caret-right"></i>World</a></li>
+                                            <li><a href="#"><i class="fa fa-caret-right"></i>Economy</a></li>
+                                            <li><a href="#"><i class="fa fa-caret-right"></i>Politics</a></li>
+                                            <li><a href="#"><i class="fa fa-caret-right"></i>Technology</a></li>
+                                            <li><a href="#"><i class="fa fa-caret-right"></i>Sport</a></li>
+                                            <li><a href="#"><i class="fa fa-caret-right"></i>Entertainment</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <ul class="list-news list-unstyled">
+                                            <li><a href="#"><i class="fa fa-caret-right"></i>Travel</a></li>
+                                            <li><a href="#"><i class="fa fa-caret-right"></i>Health</a></li>
+                                            <li><a href="#"><i class="fa fa-caret-right"></i>Fashion</a></li>
+                                            <li><a href="#"><i class="fa fa-caret-right"></i>Weather</a></li>
+                                            <li><a href="#"><i class="fa fa-caret-right"></i>Survey</a></li>
+                                            <li><a href="#"><i class="fa fa-caret-right"></i>Video & Gallery</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 plxl col-sm-5">
+                        <div id="footer-contact" class="section-category mbn">
+                            <div class="section-name"><a href="#">Contact</a></div>
+                            <div class="section-content">
+                                <div class="address"><i class="fa fa-map-marker mrm"></i>263 Humble Cross, Houston,
+                                    Texas, United State
+                                </div>
+                                <div class="row mbxl">
+                                    <div class="col-md-4"><i class="fa fa-phone mrm"></i>+(01234) 566 788</div>
+                                    <div class="col-md-4 pan"><i class="fa fa-envelope mrm"></i>bignews@gmail.com</div>
+                                    <div class="col-md-4"><i class="fa fa-skype mrm"></i>bignews_support</div>
+                                </div>
+                                <div class="heading">Subscribe for newsletter</div>
+                                <div class="input-group input-newsletter input-group-lg"><span
+                                        class="input-group-addon"><i class="fa fa-envelope"></i></span><input
+                                        type="text" placeholder="Enter your email here" class="form-control"/><span
+                                        class="input-group-addon btn-subscribe"><a href="#" class="btn btn-text">Subscribe</a><a
+                                        href="#" class="btn btn-icon"><span class="glyphicon glyphicon-send"></span></a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="pull-left">© Copyright 2015 by <span>BigNews</span></div>
+                <div class="pull-right"><a href="#">Privacy Policy</a><span class="mlm mrm">|</span><a href="#">Terms of
+                    Use</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="assets/js/jquery-1.11.2.min.js"></script>
+<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/libs/bootstrap-hover-dropdown/bootstrap-hover-dropdown.js"></script>
+<script src="assets/js/html5shiv.js"></script>
+<script src="assets/js/respond.min.js"></script>
+<!--LOADING SCRIPTS FOR PAGE-->
+<script src="assets/vendors/skycons/skycons.js"></script>
+<script src="assets/vendors/easy-ticker/jquery.easing.min.js"></script>
+<script src="assets/vendors/easy-ticker/jquery.easy-ticker.min.js"></script>
+<script src="assets/js/pages/index.js"></script>
+<!--CORE JAVASCRIPT-->
+<script src="assets/js/main.js"></script>
+<script src="assets/js/layout.js"></script>
+<script src="assets/js/menu_opener.js"></script>
+</body>
 </html>
